@@ -176,6 +176,12 @@ export default function (step, staticStep) {
         aDmg: step(14 * 3),
         a2Dmg: step(12 * 3)
       }
+    }],	
+    万世流涌大典: [staticStep('hpPct', 16), {
+      title: '满Buff下提高提高重击伤害[a2Dmg]%',
+      refine: {
+        a2Dmg: [14 * 3, 18 * 3, 22 * 3, 26 * 3, 30 * 3]
+      }
     }],
     遗祀玉珑: [staticStep('hpPct', 16), {
       title: '处于队伍后台超过6秒后，生命值上限提升[_hpPct]%，元素精通提升[mastery]点',
